@@ -1,0 +1,24 @@
+{
+	"example_variables_config": {
+		"data-set-1.csv": {
+			"TABLE_NAME" : "table1",
+            "TABLE":"final1",
+            "ARCHIVE":"archive_loc1/",
+            "BIGQUERY_TO_GCS":"gs://gcp-training-2/output.csv",
+            "QUERY":"SELECT * FROM assignment_1_dataset.table1 where store_number=2190 "
+
+               
+
+		},
+
+        "data-set-2.csv": {
+			"TABLE_NAME" : "table2",
+            "TABLE":"final2",
+            "ARCHIVE":"archive_loc2/",
+            "BIGQUERY_TO_GCS":"gs://gcp-training-2/output2.csv",
+            "QUERY":"SELECT * FROM assignment_1_dataset.table2 where Year='2006' "
+   
+
+		}
+	}
+}
